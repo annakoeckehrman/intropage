@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+p, ul {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 100px;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 0;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 7em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 0;
+}
+
+section {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.designtitle {
+    background: #EBA6A9;
+}
+
+.design-p {
+    background: #F5CCE8;
+}
+
+.borders {
+    background: #C4A29E;
+}
+
+.padding {
+    background: #FFC6AC;
+}
+
+.padding-t {
+    background: #F8F0FB;
+}
+
+.borders-title {
+    background: #CAD5CA;
+}
+
+.border-l {
+    background: #A2BCE0;
+}
+
+.padding-p {
+    background: #FCDDBC;
+}
+
+.beginning {
+    background: #F5FBEF;
+}
+
+.instructions {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
